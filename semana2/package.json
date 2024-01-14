@@ -1,0 +1,22 @@
+{
+  "name": "test-week2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "author": "Jesús Fernández",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.5.0"
+  },
+  "devDependencies": {
+    "standard": "^17.1.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "./node_modules/standard/eslintrc.json"
+    ]
+  }
+}
